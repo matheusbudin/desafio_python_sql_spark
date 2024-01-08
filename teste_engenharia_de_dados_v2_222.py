@@ -172,7 +172,7 @@ WITH vendas_por_usuario AS (
     ,usuarios.estado
     ,COUNT(*) AS total_compras
     ,SUM(vendas.quantidade) AS total_itens
-    ,ROUND(SUM(vendas.valor),2) AS valor_total
+    ,FORMAT_NUMBER(ROUND(SUM(vendas.valor),2),2) AS valor_total
     FROM vendas
     JOIN usuarios ON vendas.cod_usuario = usuarios.cod_usuario
     GROUP BY usuarios.cod_usuario, usuarios.estado
@@ -209,7 +209,7 @@ WITH total_gasto_por_usuario AS (
 )
 SELECT
 usuarios.faixa_etaria
-,ROUND(AVG(total_gasto_por_usuario.total_gasto), 2) AS ticket_medio
+,FORMAT_NUMBER(ROUND(AVG(total_gasto_por_usuario.total_gasto), 2),2) AS ticket_medio
 ,COUNT(DISTINCT usuarios.cod_usuario) AS total_usuarios
 FROM total_gasto_por_usuario
 JOIN usuarios ON total_gasto_por_usuario.cod_usuario = usuarios.cod_usuario
@@ -339,5 +339,6 @@ df_com_desconto = df_compras.withColumn("valor_com_desconto", when(col("qualific
 df_resultado = df_com_desconto.filter(col("qualifica_desconto") == 1)
 
 df_resultado.show(truncate=False)
+#Fim dos desafios por hora
 
 """# FIM!"""
