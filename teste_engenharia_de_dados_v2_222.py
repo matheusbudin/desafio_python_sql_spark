@@ -342,3 +342,8 @@ df_resultado.show(truncate=False)
 #Fim dos desafios por hora
 
 """# FIM!"""
+
+# Commented out IPython magic to ensure Python compatibility.
+# #exportando para HTML
+# %%shell
+# jupyter nbconvert --to html /content/teste_engenharia_de_dados_v2_222.ipynb
