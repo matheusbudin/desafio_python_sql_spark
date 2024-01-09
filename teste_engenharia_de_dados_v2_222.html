@@ -14580,18 +14580,17 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Setup-Geral">Setup Geral<a class="anchor-link" href="#Setup-Geral">&#182;</a></h1><p>Se estiver executando este exercício no Google Colab, execute as próximas duas células.</p>
-<p>Caso esteja executando localmente, não é necessário executar mas certifique-se de que o <strong>pyspark</strong> está instalado e configurado em sua máquina.</p>
-
+<h1 id="Resolu%C3%A7%C3%A3o-do-desafio-t%C3%A9cnico">Resolu&#231;&#227;o do desafio t&#233;cnico<a class="anchor-link" href="#Resolu%C3%A7%C3%A3o-do-desafio-t%C3%A9cnico">&#182;</a></h1><p>Bom dia pessoal, neste e-mail, temos como solicitado, o desafio em formato HTML. Porém gostaria de deixar como back up o link para o github que também possui a solução desenvolvida, e também, o hisórico de commits (caso necessário). E, também, anexo o arquivo à este e-mail</p>
+<h2 id="link:-https://github.com/matheusbudin/desafio_python_sql_spark/blob/main/teste_engenharia_de_dados_v2_222.ipynb">link: <a href="https://github.com/matheusbudin/desafio_python_sql_spark/blob/main/teste_engenharia_de_dados_v2_222.ipynb">https://github.com/matheusbudin/desafio_python_sql_spark/blob/main/teste_engenharia_de_dados_v2_222.ipynb</a><a class="anchor-link" href="#link:-https://github.com/matheusbudin/desafio_python_sql_spark/blob/main/teste_engenharia_de_dados_v2_222.ipynb">&#182;</a></h2>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">bash</span>
@@ -14608,12 +14607,54 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Hit:1 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  InRelease
+Get:2 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ InRelease [3,626 B]
+Hit:3 http://archive.ubuntu.com/ubuntu jammy InRelease
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Hit:6 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:7 https://ppa.launchpadcontent.net/c2d4u.team/c2d4u4.0+/ubuntu jammy InRelease
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [1,614 kB]
+Hit:9 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease
+Hit:10 https://ppa.launchpadcontent.net/graphics-drivers/ppa/ubuntu jammy InRelease
+Hit:11 https://ppa.launchpadcontent.net/ubuntugis/ppa/ubuntu jammy InRelease
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [50.4 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1,605 kB]
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1,047 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1,307 kB]
+Get:16 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [44.6 kB]
+Get:17 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1,332 kB]
+Fetched 7,234 kB in 3s (2,846 kB/s)
+Reading package lists...
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 316.9/316.9 MB 2.8 MB/s eta 0:00:00
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -14663,7 +14704,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># SETUP</span>
@@ -14704,23 +14745,61 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">filtra_alunos_acima_corte</span><span class="p">(</span><span class="n">alunos</span><span class="p">,</span> <span class="n">notas</span><span class="p">,</span> <span class="n">nota_corte</span><span class="p">):</span>
-    <span class="c1"># Desenvolva aqui</span>
-    
+  <span class="c1"># Desenvolva aqui</span>
+    <span class="c1"># Primeiro, cria-se um dicionário para mapear IDs de alunos:</span>
+    <span class="n">dicionario_estudantes</span> <span class="o">=</span> <span class="p">{</span><span class="nb">id</span><span class="p">:</span> <span class="n">name</span> <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">alunos</span><span class="p">}</span>
+
+    <span class="c1"># Verifica-se que cada ID na lista de alunos corresponda a um ID no dicionário de notas</span>
+    <span class="n">alunos_verificados</span> <span class="o">=</span> <span class="p">[</span><span class="nb">id</span> <span class="k">for</span> <span class="n">nome</span><span class="p">,</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">alunos</span> <span class="k">if</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">notas</span><span class="p">]</span>
+
+    <span class="c1"># Filtra-se as notas do dicionário para encontrar alunos com notas acima do corte:</span>
+    <span class="n">alunos_aprovados</span> <span class="o">=</span> <span class="p">{</span><span class="nb">id</span><span class="p">:</span> <span class="n">nota</span> <span class="k">for</span> <span class="nb">id</span><span class="p">,</span> <span class="n">nota</span> <span class="ow">in</span> <span class="n">notas</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">nota</span> <span class="o">&gt;=</span> <span class="n">nota_corte</span><span class="p">}</span>
+
+    <span class="c1"># Mapeia-se os estudantes aprovados, referenciando-se os nomes novamente:</span>
+    <span class="n">nomes_alunos_aprovados</span> <span class="o">=</span> <span class="p">[</span><span class="n">dicionario_estudantes</span><span class="p">[</span><span class="nb">id</span><span class="p">]</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">alunos_aprovados</span><span class="p">]</span>
+
+    <span class="c1"># Ordena em ordem alfabética e retorna a lista com o resultado</span>
+    <span class="k">return</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">nomes_alunos_aprovados</span><span class="p">)</span>
 <span class="n">filtra_alunos_acima_corte</span><span class="p">(</span><span class="n">nomes_alunos</span><span class="p">,</span> <span class="n">notas_alunos</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[&#39;Arthur&#39;, &#39;Gabriella&#39;, &#39;Maria&#39;, &#39;Pedro&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14746,12 +14825,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">bash</span>
@@ -14766,12 +14845,43 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1039  100  1039    0     0   3443      0 --:--:-- --:--:-- --:--:--  3451
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  533k  100  533k    0     0   859k      0 --:--:-- --:--:-- --:--:--  859k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  211k  100  211k    0     0   472k      0 --:--:-- --:--:-- --:--:--  473k
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Setup Spark Session</span>
@@ -14789,7 +14899,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">cria_tabela</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">nome_tabela</span><span class="p">):</span>
@@ -14824,7 +14934,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">q</span><span class="p">(</span><span class="n">query</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">30</span><span class="p">):</span>
@@ -14874,20 +14984,161 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="c1">#amostras de cada tabela</span>
+<span class="n">q</span><span class="p">(</span><span class="s2">"""</span>
+<span class="s2">SELECT * FROM usuarios LIMIT 3</span>
+<span class="s2">"""</span><span class="p">)</span>
+<span class="n">q</span><span class="p">(</span><span class="s2">"""</span>
+<span class="s2">SELECT * FROM vendas LIMIT 3</span>
+<span class="s2">"""</span><span class="p">)</span>
+<span class="n">q</span><span class="p">(</span><span class="s2">"""</span>
+<span class="s2">SELECT * FROM produtos LIMIT 3</span>
+<span class="s2">"""</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+-----------+-------------+------------------+---------+-------------------+
+|cod_usuario|data_cadastro|faixa_etaria      |cidade   |estado             |
++-----------+-------------+------------------+---------+-------------------+
+|69         |2020-07-24   |Entre 16 a 21 anos|São Romão|Minas Gerais       |
+|176        |2021-03-19   |Entre 28 a 36 anos|Guanambi |Bahia              |
+|185        |2021-03-11   |Entre 16 a 21 anos|Martins  |Rio Grande do Norte|
++-----------+-------------+------------------+---------+-------------------+
+
++-----------+-----------+-----------+----------+-------+
+|cod_usuario|cod_produto|data_compra|quantidade|valor  |
++-----------+-----------+-----------+----------+-------+
+|927        |10         |2020-10-19 |4         |2799.6 |
+|1544       |10         |2021-03-28 |2         |1399.8 |
+|2833       |2          |2020-09-13 |20        |26915.6|
++-----------+-----------+-----------+----------+-------+
+
++-----------+---------------------------+-----------------+-------------+
+|cod_produto|nome_produto               |categoria_produto|valor_produto|
++-----------+---------------------------+-----------------+-------------+
+|1          |Notebook Asus Intel Core i7|Tecnologia       |4590.9       |
+|2          |Bicicleta Caloi Aro 29     |Lazer            |1345.78      |
+|3          |Smartphone Samsung         |Tecnologia       |2049.5       |
++-----------+---------------------------+-----------------+-------------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-python"><pre><span></span><span class="n">q</span><span class="p">(</span><span class="s2">"""</span>
+<span class="s2">SELECT</span>
+<span class="s2">YEAR(vendas.data_compra) AS ano</span>
+<span class="s2">,MONTH(vendas.data_compra) AS mes</span>
+<span class="s2">,usuarios.estado</span>
+<span class="s2">,SUM(vendas.quantidade) AS total_vendas</span>
+
+<span class="s2">FROM vendas AS vendas</span>
+<span class="s2">INNER JOIN usuarios AS usuarios ON vendas.cod_usuario = usuarios.cod_usuario</span>
+<span class="s2">WHERE usuarios.estado IN ('Minas Gerais', 'São Paulo')</span>
+<span class="s2">GROUP BY YEAR(vendas.data_compra), MONTH(vendas.data_compra), usuarios.estado</span>
+<span class="s2">ORDER BY ano, mes, usuarios.estado</span>
+<span class="s2">"""</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+----+---+------------+------------+
+|ano |mes|estado      |total_vendas|
++----+---+------------+------------+
+|2018|6  |Minas Gerais|10          |
+|2018|7  |São Paulo   |9           |
+|2018|8  |Minas Gerais|16          |
+|2018|10 |Minas Gerais|20          |
+|2018|10 |São Paulo   |12          |
+|2018|11 |Minas Gerais|10          |
+|2018|12 |Minas Gerais|39          |
+|2019|1  |Minas Gerais|20          |
+|2019|2  |Minas Gerais|2           |
+|2019|4  |Minas Gerais|26          |
+|2019|5  |Minas Gerais|11          |
+|2019|6  |Minas Gerais|1           |
+|2019|6  |São Paulo   |10          |
+|2019|7  |Minas Gerais|14          |
+|2019|8  |Minas Gerais|15          |
+|2019|8  |São Paulo   |17          |
+|2019|9  |Minas Gerais|27          |
+|2019|10 |Minas Gerais|3           |
+|2019|11 |Minas Gerais|1           |
+|2019|12 |Minas Gerais|25          |
+|2020|1  |Minas Gerais|8           |
+|2020|1  |São Paulo   |6           |
+|2020|2  |Minas Gerais|10          |
+|2020|3  |Minas Gerais|14          |
+|2020|3  |São Paulo   |1           |
+|2020|4  |Minas Gerais|1           |
+|2020|4  |São Paulo   |9           |
+|2020|5  |Minas Gerais|44          |
+|2020|6  |Minas Gerais|18          |
+|2020|6  |São Paulo   |13          |
++----+---+------------+------------+
+only showing top 30 rows
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14902,20 +15153,84 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">q</span><span class="p">(</span><span class="s2">"""</span>
+<span class="s2">WITH vendas_por_usuario AS (</span>
+<span class="s2">    SELECT</span>
+<span class="s2">    usuarios.cod_usuario</span>
+<span class="s2">    ,usuarios.estado</span>
+<span class="s2">    ,COUNT(*) AS total_compras</span>
+<span class="s2">    ,SUM(vendas.quantidade) AS total_itens</span>
+<span class="s2">    ,FORMAT_NUMBER(ROUND(SUM(vendas.valor),2),2) AS valor_total</span>
+<span class="s2">    FROM vendas</span>
+<span class="s2">    JOIN usuarios ON vendas.cod_usuario = usuarios.cod_usuario</span>
+<span class="s2">    GROUP BY usuarios.cod_usuario, usuarios.estado</span>
+<span class="s2">)</span>
+<span class="s2">SELECT estado, cod_usuario, total_compras, total_itens, valor_total</span>
+<span class="s2">FROM (</span>
+<span class="s2">    SELECT *,</span>
+<span class="s2">           RANK() OVER (PARTITION BY estado ORDER BY total_compras DESC, total_itens DESC, valor_total DESC) as rank</span>
+<span class="s2">    FROM vendas_por_usuario</span>
+<span class="s2">) ranked</span>
+<span class="s2">WHERE ranked.rank = 1</span>
+<span class="s2">ORDER BY estado</span>
+<span class="s2">"""</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+-------------------+-----------+-------------+-----------+-----------+
+|estado             |cod_usuario|total_compras|total_itens|valor_total|
++-------------------+-----------+-------------+-----------+-----------+
+|Amapá              |2186       |7            |61         |51,359.34  |
+|Bahia              |2981       |9            |70         |126,282.40 |
+|Ceará              |1787       |8            |79         |121,494.67 |
+|Goiás              |700        |9            |74         |142,389.09 |
+|Maranhão           |2811       |13           |117        |184,101.89 |
+|Mato Grosso        |2340       |9            |112        |165,197.30 |
+|Mato Grosso do Sul |679        |6            |102        |152,271.96 |
+|Minas Gerais       |3090       |9            |93         |95,697.30  |
+|Paraná             |2843       |10           |114        |137,228.01 |
+|Paraíba            |464        |6            |73         |73,556.10  |
+|Pernambuco         |2646       |7            |84         |135,556.70 |
+|Piauí              |1974       |5            |77         |139,997.47 |
+|Rio Grande do Norte|3403       |10           |94         |136,347.01 |
+|Rio Grande do Sul  |28         |9            |76         |29,114.45  |
+|Santa Catarina     |2551       |9            |88         |187,513.66 |
+|São Paulo          |1756       |8            |73         |134,413.00 |
+|Tocantins          |1752       |8            |80         |97,028.45  |
++-------------------+-----------+-------------+-----------+-----------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14930,20 +15245,84 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">q</span><span class="p">(</span><span class="s2">"""</span>
+<span class="s2">SELECT</span>
+<span class="s2">  usuarios.cod_usuario</span>
+<span class="s2">FROM usuarios</span>
+<span class="s2">LEFT JOIN vendas ON usuarios.cod_usuario = vendas.cod_usuario</span>
+<span class="s2">WHERE vendas.quantidade IS NULL</span>
+<span class="s2">"""</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+-----------+
+|cod_usuario|
++-----------+
+|5098       |
+|5229       |
+|5482       |
+|5504       |
+|5614       |
+|5923       |
+|6985       |
+|7901       |
+|9980       |
+|10080      |
+|10152      |
+|10170      |
+|10929      |
+|11002      |
+|11546      |
+|12298      |
+|12354      |
+|13117      |
+|13476      |
+|14486      |
+|15198      |
+|15313      |
+|15784      |
+|16570      |
+|17530      |
+|17779      |
+|18028      |
+|18034      |
+|18166      |
+|18366      |
++-----------+
+only showing top 30 rows
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14958,15 +15337,32 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="n">q</span><span class="p">(</span><span class="s2">"""</span>
+<span class="s2">WITH total_gasto_por_usuario AS (</span>
+<span class="s2">    SELECT</span>
+<span class="s2">     vendas.cod_usuario</span>
+<span class="s2">    ,SUM(vendas.valor) AS total_gasto</span>
+<span class="s2">    FROM vendas</span>
+<span class="s2">    GROUP BY vendas.cod_usuario</span>
+<span class="s2">)</span>
+<span class="s2">SELECT</span>
+<span class="s2">usuarios.faixa_etaria</span>
+<span class="s2">,FORMAT_NUMBER(ROUND(AVG(total_gasto_por_usuario.total_gasto), 2),2) AS ticket_medio</span>
+<span class="s2">,COUNT(DISTINCT usuarios.cod_usuario) AS total_usuarios</span>
+<span class="s2">FROM total_gasto_por_usuario</span>
+<span class="s2">JOIN usuarios ON total_gasto_por_usuario.cod_usuario = usuarios.cod_usuario</span>
+<span class="s2">GROUP BY usuarios.faixa_etaria</span>
+<span class="s2">ORDER BY usuarios.faixa_etaria</span>
+
+<span class="s2">"""</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14974,12 +15370,47 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+------------------+------------+--------------+
+|faixa_etaria      |ticket_medio|total_usuarios|
++------------------+------------+--------------+
+|Entre 10 a 15 anos|54,610.77   |7             |
+|Entre 16 a 21 anos|57,845.21   |11            |
+|Entre 22 a 27 anos|78,099.35   |10            |
+|Entre 28 a 36 anos|51,227.79   |9             |
+|Entre 37 a 49 anos|117,090.33  |6             |
+|Entre 50 a 61 anos|72,329.84   |12            |
+|Entre 62 a 70 anos|55,784.63   |7             |
+|Mais de 70 anos   |81,947.50   |4             |
++------------------+------------+--------------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">spark</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>
@@ -15013,12 +15444,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">bash</span>
@@ -15033,17 +15464,49 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>mkdir: cannot create directory ‘bases_teste’: File exists
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1039  100  1039    0     0   3535      0 --:--:-- --:--:-- --:--:--  3546
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  533k  100  533k    0     0  1275k      0 --:--:-- --:--:-- --:--:-- 1277k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  211k  100  211k    0     0   713k      0 --:--:-- --:--:-- --:--:--  713k
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1"># Setup Spark Session</span>
 <span class="kn">from</span> <span class="nn">pyspark.sql</span> <span class="kn">import</span> <span class="n">SparkSession</span>
-<span class="n">spark</span> <span class="o">=</span> <span class="n">SparkSession</span><span class="o">.</span><span class="n">builder</span><span class="o">.</span><span class="n">appName</span><span class="p">(</span><span class="s2">"AtividadeSQL"</span><span class="p">)</span><span class="o">.</span><span class="n">getOrCreate</span><span class="p">()</span>
+<span class="n">spark</span> <span class="o">=</span> <span class="n">SparkSession</span><span class="o">.</span><span class="n">builder</span><span class="o">.</span><span class="n">appName</span><span class="p">(</span><span class="s2">"Atividade_Spark_DataFrames"</span><span class="p">)</span><span class="o">.</span><span class="n">getOrCreate</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -15056,7 +15519,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">cria_tabela</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">nome_tabela</span><span class="p">):</span>
@@ -15074,6 +15537,74 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-python"><pre><span></span><span class="c1">#amostras</span>
+<span class="n">usuarios</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">truncate</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">produtos</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">truncate</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<span class="n">vendas</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">truncate</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+-----------+-------------+------------------+---------+-------------------+
+|cod_usuario|data_cadastro|faixa_etaria      |cidade   |estado             |
++-----------+-------------+------------------+---------+-------------------+
+|69         |2020-07-24   |Entre 16 a 21 anos|São Romão|Minas Gerais       |
+|176        |2021-03-19   |Entre 28 a 36 anos|Guanambi |Bahia              |
+|185        |2021-03-11   |Entre 16 a 21 anos|Martins  |Rio Grande do Norte|
++-----------+-------------+------------------+---------+-------------------+
+only showing top 3 rows
+
++-----------+---------------------------+-----------------+-------------+
+|cod_produto|nome_produto               |categoria_produto|valor_produto|
++-----------+---------------------------+-----------------+-------------+
+|1          |Notebook Asus Intel Core i7|Tecnologia       |4590.9       |
+|2          |Bicicleta Caloi Aro 29     |Lazer            |1345.78      |
+|3          |Smartphone Samsung         |Tecnologia       |2049.5       |
++-----------+---------------------------+-----------------+-------------+
+only showing top 3 rows
+
++-----------+-----------+-----------+----------+-------+
+|cod_usuario|cod_produto|data_compra|quantidade|valor  |
++-----------+-----------+-----------+----------+-------+
+|927        |10         |2020-10-19 |4         |2799.6 |
+|1544       |10         |2021-03-28 |2         |1399.8 |
+|2833       |2          |2020-09-13 |20        |26915.6|
++-----------+-----------+-----------+----------+-------+
+only showing top 3 rows
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -15087,20 +15618,57 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.sql</span> <span class="kn">import</span> <span class="n">functions</span> <span class="k">as</span> <span class="n">F</span>
+
+<span class="c1"># Cálculo do total de compras, total de itens, e receita total:</span>
+<span class="n">resultado</span> <span class="o">=</span> <span class="n">vendas</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span>
+    <span class="n">F</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">lit</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Total_Compras"</span><span class="p">),</span>
+    <span class="n">F</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="s2">"quantidade"</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Total_Itens"</span><span class="p">),</span>
+    <span class="n">F</span><span class="o">.</span><span class="n">format_number</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="s2">"valor"</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Receita_Total"</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">resultado</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">truncate</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+-------------+-----------+--------------+
+|Total_Compras|Total_Itens|Receita_Total |
++-------------+-----------+--------------+
+|20000        |209149     |215,849,001.66|
++-------------+-----------+--------------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15115,20 +15683,77 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.sql</span> <span class="kn">import</span> <span class="n">functions</span> <span class="k">as</span> <span class="n">F</span>
+<span class="kn">from</span> <span class="nn">pyspark.sql.window</span> <span class="kn">import</span> <span class="n">Window</span>
+
+<span class="c1"># Listagem de Estados do Sul e Sudeste:</span>
+<span class="n">estados_sul_sudeste</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Rio Grande do Sul"</span><span class="p">,</span> <span class="s2">"Santa Catarina"</span><span class="p">,</span> <span class="s2">"Paraná"</span><span class="p">,</span>
+                       <span class="s2">"São Paulo"</span><span class="p">,</span> <span class="s2">"Rio de Janeiro"</span><span class="p">,</span> <span class="s2">"Espírito Santo"</span><span class="p">,</span> <span class="s2">"Minas Gerais"</span><span class="p">]</span>
+
+<span class="c1"># Condição do JOIN entre as tabelas vendas , usuarios e produtos:</span>
+<span class="n">condicao_join</span> <span class="o">=</span> <span class="p">[</span><span class="n">vendas</span><span class="o">.</span><span class="n">cod_usuario</span> <span class="o">==</span> <span class="n">usuarios</span><span class="o">.</span><span class="n">cod_usuario</span><span class="p">,</span> <span class="n">vendas</span><span class="o">.</span><span class="n">cod_produto</span> <span class="o">==</span> <span class="n">produtos</span><span class="o">.</span><span class="n">cod_produto</span><span class="p">]</span>
+<span class="n">df_join</span> <span class="o">=</span> <span class="n">vendas</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">usuarios</span><span class="p">,</span> <span class="n">condicao_join</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">produtos</span><span class="p">,</span> <span class="n">condicao_join</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="c1"># Aplicando as condições de retorno solicitadas e filtradas por estado</span>
+<span class="n">df_agregacao</span> <span class="o">=</span> <span class="n">df_join</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">usuarios</span><span class="o">.</span><span class="n">estado</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">estados_sul_sudeste</span><span class="p">))</span> \
+    <span class="o">.</span><span class="n">groupBy</span><span class="p">(</span><span class="n">produtos</span><span class="o">.</span><span class="n">nome_produto</span><span class="p">)</span> \
+    <span class="o">.</span><span class="n">agg</span><span class="p">(</span>
+        <span class="n">F</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="s2">"quantidade"</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Total_Itens"</span><span class="p">),</span>
+        <span class="n">F</span><span class="o">.</span><span class="n">format_number</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="s2">"valor"</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Valor_Total"</span><span class="p">),</span>
+        <span class="n">F</span><span class="o">.</span><span class="n">format_number</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="s2">"valor"</span><span class="p">)</span> <span class="o">/</span> <span class="n">F</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="s2">"quantidade"</span><span class="p">),</span> <span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Preco_Medio"</span><span class="p">)</span>
+    <span class="p">)</span>
+
+<span class="c1"># Aplicando o conceito de window functions para rankeamento</span>
+<span class="n">windowSpec</span> <span class="o">=</span> <span class="n">Window</span><span class="o">.</span><span class="n">partitionBy</span><span class="p">()</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">desc</span><span class="p">(</span><span class="s2">"Total_Itens"</span><span class="p">))</span>
+
+<span class="c1"># Aplicando a função de window functions e selecionando os 3 primeiros</span>
+<span class="n">top_produtos</span> <span class="o">=</span> <span class="n">df_agregacao</span><span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="s2">"rank"</span><span class="p">,</span> <span class="n">F</span><span class="o">.</span><span class="n">row_number</span><span class="p">()</span><span class="o">.</span><span class="n">over</span><span class="p">(</span><span class="n">windowSpec</span><span class="p">))</span> \
+    <span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="s2">"rank"</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="n">top_produtos</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">truncate</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+---------------------------+-----------+-----------+-----------+----+
+|nome_produto               |Total_Itens|Valor_Total|Preco_Medio|rank|
++---------------------------+-----------+-----------+-----------+----+
+|Alcool em Gel 70% Johnson  |280        |1,397.20   |4.99       |1   |
+|Escrivaninha em L          |141        |61,617.00  |437.00     |2   |
+|Notebook Asus Intel Core i7|134        |615,180.60 |4,590.90   |3   |
++---------------------------+-----------+-----------+-----------+----+
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15143,20 +15768,81 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.sql</span> <span class="kn">import</span> <span class="n">functions</span> <span class="k">as</span> <span class="n">F</span>
+
+<span class="c1"># dataframe com JOIN entre as tabelas vendas e produtos</span>
+<span class="n">df_join</span> <span class="o">=</span> <span class="n">vendas</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">produtos</span><span class="p">,</span> <span class="n">vendas</span><span class="o">.</span><span class="n">cod_produto</span> <span class="o">==</span> <span class="n">produtos</span><span class="o">.</span><span class="n">cod_produto</span><span class="p">)</span>
+
+<span class="c1"># Calculando o número de usuários distintos, valor mínimo e máximo pago por produto</span>
+<span class="n">resultado</span> <span class="o">=</span> <span class="n">df_join</span><span class="o">.</span><span class="n">groupBy</span><span class="p">(</span><span class="n">produtos</span><span class="o">.</span><span class="n">nome_produto</span><span class="p">)</span> \
+                   <span class="o">.</span><span class="n">agg</span><span class="p">(</span>
+                       <span class="n">F</span><span class="o">.</span><span class="n">countDistinct</span><span class="p">(</span><span class="n">vendas</span><span class="o">.</span><span class="n">cod_usuario</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Total_Usuarios"</span><span class="p">),</span>
+                       <span class="n">F</span><span class="o">.</span><span class="n">format_number</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">vendas</span><span class="o">.</span><span class="n">valor</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Valor_minimo"</span><span class="p">),</span>
+                       <span class="n">F</span><span class="o">.</span><span class="n">format_number</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">vendas</span><span class="o">.</span><span class="n">valor</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">"Valor_Maximo"</span><span class="p">)</span>
+                   <span class="p">)</span>
+
+<span class="n">resultado</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">truncate</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+-----------------------------------+--------------+------------+------------+
+|nome_produto                       |Total_Usuarios|Valor_minimo|Valor_Maximo|
++-----------------------------------+--------------+------------+------------+
+|Bicicleta Caloi Aro 29             |775           |1,345.78    |26,915.60   |
+|Cafeteira Nespresso                |832           |219.57      |4,391.40    |
+|Notebook Asus Intel Core i7        |825           |4,590.90    |91,818.00   |
+|Aparelho de Barbear OneBlade Philco|818           |129.90      |2,598.00    |
+|SPA Intel 700 L                    |839           |5,999.10    |119,982.00  |
+|Jogo Mortal Kombat 11 PS4          |847           |49.90       |998.00      |
+|Umidificador de Ar Cadence         |788           |77.50       |1,550.00    |
+|Blusa Lacoste                      |812           |138.99      |2,779.80    |
+|Alcool em Gel 70% Johnson          |837           |4.99        |99.80       |
+|Monitor LG 19 pol curvado          |842           |584.10      |11,682.00   |
+|Escrivaninha em L                  |860           |437.00      |8,740.00    |
+|Lenço umedecido Turma da Monica    |880           |7.90        |158.00      |
+|Kit 3 barras de chocolate Alpino   |809           |9.90        |198.00      |
+|Ar-condicionado 9500 BTUs LG       |863           |1,300.49    |26,009.80   |
+|Mochila Targus                     |833           |58.90       |1,178.00    |
+|Cadeira Gamer Xpress               |838           |699.90      |13,998.00   |
+|Biscoito Chocolicia Chocolate      |832           |5.00        |100.00      |
+|SmartTV Samsung 4K 55 polegadas    |856           |2,499.90    |49,998.00   |
+|Smartphone Samsung                 |823           |2,049.50    |40,990.00   |
+|Sofa 3 lugares                     |845           |899.90      |17,998.00   |
++-----------------------------------+--------------+------------+------------+
+only showing top 20 rows
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15171,20 +15857,91 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span>
+<div class=" highlight hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.sql</span> <span class="kn">import</span> <span class="n">Window</span>
+<span class="kn">from</span> <span class="nn">pyspark.sql.functions</span> <span class="kn">import</span> <span class="n">col</span><span class="p">,</span> <span class="n">when</span><span class="p">,</span> <span class="n">count</span><span class="p">,</span> <span class="n">lit</span><span class="p">,</span> <span class="n">format_number</span>
+
+<span class="c1"># INNER JOIN da tabela vendas com a tabela produtos:</span>
+<span class="n">df_join</span> <span class="o">=</span> <span class="n">vendas</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">produtos</span><span class="p">,</span> <span class="s2">"cod_produto"</span><span class="p">)</span>
+
+<span class="c1"># Definição do particionamento por window functions, por usuário e categoria</span>
+<span class="n">windowSpec</span> <span class="o">=</span> <span class="n">Window</span><span class="o">.</span><span class="n">partitionBy</span><span class="p">(</span><span class="s2">"cod_usuario"</span><span class="p">,</span> <span class="s2">"categoria_produto"</span><span class="p">)</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="s2">"data_compra"</span><span class="p">)</span>
+
+<span class="c1"># Contando o número de compras por usuário em cada categoria e marcando compras que se qualificam para desconto</span>
+<span class="n">df_compras</span> <span class="o">=</span> <span class="n">df_join</span><span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="s2">"num_compras_categoria"</span><span class="p">,</span> <span class="n">count</span><span class="p">(</span><span class="n">lit</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span><span class="o">.</span><span class="n">over</span><span class="p">(</span><span class="n">windowSpec</span><span class="p">))</span> \
+                    <span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="s2">"qualifica_desconto"</span><span class="p">,</span> <span class="n">when</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"num_compras_categoria"</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">otherwise</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="c1"># Calculando o valor com desconto e formatando as colunas númericas:</span>
+<span class="n">df_com_desconto</span> <span class="o">=</span> <span class="n">df_compras</span><span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="s2">"valor_com_desconto"</span><span class="p">,</span> <span class="n">when</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"qualifica_desconto"</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">,</span> <span class="n">col</span><span class="p">(</span><span class="s2">"valor"</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.9</span><span class="p">)</span><span class="o">.</span><span class="n">otherwise</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"valor"</span><span class="p">)))</span> \
+                            <span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="s2">"valor"</span><span class="p">,</span> <span class="n">format_number</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"valor"</span><span class="p">),</span> <span class="mi">2</span><span class="p">))</span> \
+                            <span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="s2">"valor_produto"</span><span class="p">,</span> <span class="n">format_number</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"valor_produto"</span><span class="p">),</span> <span class="mi">2</span><span class="p">))</span> \
+                            <span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="s2">"valor_com_desconto"</span><span class="p">,</span> <span class="n">format_number</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"valor_com_desconto"</span><span class="p">),</span> <span class="mi">2</span><span class="p">))</span>
+
+<span class="c1"># Filtrando para exibir apenas os usuários que se qualificados para o desconto</span>
+<span class="n">df_resultado</span> <span class="o">=</span> <span class="n">df_com_desconto</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">col</span><span class="p">(</span><span class="s2">"qualifica_desconto"</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">df_resultado</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">truncate</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="c1">#Fim dos desafios por hora</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+-----------+-----------+-----------+----------+---------+-------------------------------+----------------------+-------------+---------------------+------------------+------------------+
+|cod_produto|cod_usuario|data_compra|quantidade|valor    |nome_produto                   |categoria_produto     |valor_produto|num_compras_categoria|qualifica_desconto|valor_com_desconto|
++-----------+-----------+-----------+----------+---------+-------------------------------+----------------------+-------------+---------------------+------------------+------------------+
+|1          |3          |2021-07-20 |8         |36,727.20|Notebook Asus Intel Core i7    |Tecnologia            |4,590.90     |4                    |1                 |33,054.48         |
+|8          |6          |2021-03-23 |2         |439.14   |Cafeteira Nespresso            |Eletrodomesticos      |219.57       |4                    |1                 |395.23            |
+|1          |16         |2021-02-16 |9         |41,318.10|Notebook Asus Intel Core i7    |Tecnologia            |4,590.90     |4                    |1                 |37,186.29         |
+|17         |16         |2021-05-23 |8         |4,672.80 |Monitor LG 19 pol curvado      |Tecnologia            |584.10       |5                    |1                 |4,205.52          |
+|18         |17         |2021-07-21 |12        |94.80    |Lenço umedecido Turma da Monica|Produtos de limpeza   |7.90         |4                    |1                 |85.32             |
+|18         |17         |2021-07-30 |15        |118.50   |Lenço umedecido Turma da Monica|Produtos de limpeza   |7.90         |5                    |1                 |106.65            |
+|7          |23         |2020-07-08 |19        |24,709.31|Ar-condicionado 9500 BTUs LG   |Casa e bem-estar      |1,300.49     |4                    |1                 |22,238.38         |
+|6          |34         |2021-07-28 |3         |2,699.70 |Sofa 3 lugares                 |Casa e bem-estar      |899.90       |4                    |1                 |2,429.73          |
+|6          |37         |2021-07-10 |1         |899.90   |Sofa 3 lugares                 |Casa e bem-estar      |899.90       |4                    |1                 |809.91            |
+|1          |39         |2020-11-17 |11        |50,499.90|Notebook Asus Intel Core i7    |Tecnologia            |4,590.90     |4                    |1                 |45,449.91         |
+|15         |41         |2020-08-30 |8         |39.92    |Alcool em Gel 70% Johnson      |Produtos de limpeza   |4.99         |4                    |1                 |35.93             |
+|7          |87         |2021-07-27 |15        |19,507.35|Ar-condicionado 9500 BTUs LG   |Casa e bem-estar      |1,300.49     |4                    |1                 |17,556.61         |
+|18         |101        |2021-06-11 |1         |7.90     |Lenço umedecido Turma da Monica|Produtos de limpeza   |7.90         |4                    |1                 |7.11              |
+|5          |106        |2020-10-16 |15        |6,555.00 |Escrivaninha em L              |Material de escritorio|437.00       |4                    |1                 |5,899.50          |
+|16         |123        |2021-07-20 |2         |10.00    |Biscoito Chocolicia Chocolate  |Alimentos             |5.00         |4                    |1                 |9.00              |
+|6          |132        |2020-11-17 |18        |16,198.20|Sofa 3 lugares                 |Casa e bem-estar      |899.90       |4                    |1                 |14,578.38         |
+|17         |132        |2021-01-16 |17        |9,929.70 |Monitor LG 19 pol curvado      |Tecnologia            |584.10       |4                    |1                 |8,936.73          |
+|18         |166        |2021-07-27 |20        |158.00   |Lenço umedecido Turma da Monica|Produtos de limpeza   |7.90         |4                    |1                 |142.20            |
+|21         |184        |2021-07-28 |3         |17,997.30|SPA Intel 700 L                |Lazer                 |5,999.10     |4                    |1                 |16,197.57         |
+|15         |203        |2021-06-10 |15        |74.85    |Alcool em Gel 70% Johnson      |Produtos de limpeza   |4.99         |4                    |1                 |67.36             |
++-----------+-----------+-----------+----------+---------+-------------------------------+----------------------+-------------+---------------------+------------------+------------------+
+only showing top 20 rows
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15198,6 +15955,62 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-python"><pre><span></span><span class="c1">#exportando para HTML</span>
+<span class="o">%%</span><span class="n">shell</span>
+<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">teste_engenharia_de_dados_v2_222</span><span class="o">.</span><span class="n">ipynb</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>[NbConvertApp] Converting notebook /content/teste_engenharia_de_dados_v2_222.ipynb to html
+[NbConvertApp] Writing 609141 bytes to /content/teste_engenharia_de_dados_v2_222.html
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre></pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </body>
 
